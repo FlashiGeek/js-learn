@@ -1,5 +1,4 @@
-let a = 1, b = 1;
-alert( ++a ); // равно 2
-alert( b++ ); // равно 1
-alert( a ); // равно 2
-alert( b ); // равно 2
+let a = 2;
+let x = 1 + (a *= 2);
+alert('a: ' + a); // 4
+alert('x: ' + x); // 5
