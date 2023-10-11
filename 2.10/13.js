@@ -1,6 +1,6 @@
-let oficialname = prompt('Какое «официальное» название JavaScript?', '');
+let officialname = prompt('Какое «официальное» название JavaScript?', '');
 
-if (oficialname == 'ECMAScript') {
+if (officialname == 'ECMAScript') {
   alert('Верно!');
 } else {
   alert('Не знаете?“ECMAScript”!')
